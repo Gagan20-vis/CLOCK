@@ -13,7 +13,7 @@ A simple clock application built with React and Vite that displays the current t
 
 ## Demo
 
-[Insert Link to Live Demo here]
+[[Insert Link to Live Demo here]](https://gagan20-vis.github.io/CLOCK/)
 
 ## Features
 
