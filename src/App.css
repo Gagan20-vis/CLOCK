@@ -1,0 +1,86 @@
+.container,
+.hour,
+.minute,
+.second {
+  display: flex;
+  font-size: 18rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hour,
+.minute,
+.second {
+  background-color: #393939;
+  border-radius:30px;
+  padding: 0px 40px;
+}
+
+.number{
+  text-align: center;
+  min-width: 220px;
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+}
+
+.ampm{
+  font-size: 2rem;
+  position: relative;
+  bottom: 0px;
+  margin-left: 10px;
+  background-color: #393939;
+  border-radius:10px;
+  height: 100%;
+  padding: 5px;
+}
+
+.move {
+  animation: move ease-out 1s infinite;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: move;
+  animation-timeline: auto;
+  animation-range-start: normal;
+  animation-range-end: normal;
+  -o-animation: move ease-out 1s infinite;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  animation-name: move;
+  animation-timeline: auto;
+  animation-range-start: normal;
+  animation-range-end: normal;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0rem);
+  }
+
+  25% {
+    transform: translateY(-2rem);
+  }
+
+  50% {
+    transform: translateY(-4rem);
+  }
+
+  75% {
+    transform: translateY(-6rem);
+  }
+
+  100% {
+    transform: translateY(-10rem);
+  }
+}
